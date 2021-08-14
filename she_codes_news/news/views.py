@@ -1,4 +1,5 @@
 from django.views import generic
+from django.views.generic.detail import DetailView
 from .models import NewsStory
 
 
@@ -14,3 +15,9 @@ class IndexView(generic.ListView):
         context['latest_stories'] = NewsStory.objects.all()[:4]
         context['all_stories'] = NewsStory.objects.all()
         return context
+
+class StoryView(generic.DetailView):
+    model = NewsStory
+    template_name = 'news/story.html'
+    context_object_name = 'story'
+
