@@ -31,6 +31,6 @@ class AddStoryView(generic.CreateView):
     #overriding for_valid which is on generic.CreateView
     def form_valid(self,form):
         #set author to the user logged in
-        form.insstance.author = self.request.user
+        form.instance.author = self.request.user
         return super().form_valid(form)
 

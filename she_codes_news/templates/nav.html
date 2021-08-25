@@ -3,7 +3,9 @@
     {% if request.user.is_authenticated %}
         <a href="#">{{user.username}}</a>
         <a href="{% url 'logout' %}">Logout</a>
+        {% comment %} <a href="{% url 'users:profile' %}">Profile</a> {% endcomment %}
     {% else %}
         <a href="{% url 'login' %}">Login</a>
+        <a href="{% url 'users:createAccount' %}">Sign Up</a>
     {% endif %}
 </nav>

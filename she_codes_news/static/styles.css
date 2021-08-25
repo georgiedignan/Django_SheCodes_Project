@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
 body {
-    background-color: rgb(240, 239, 239);
+    /* background-color: rgb(240, 239, 239); */
+    background-color: #FFE1DE;
 }
 
 header {
@@ -21,6 +22,13 @@ h1 {
     font-size: 4rem;
     margin: 0;
 }
+
+#h1_logo {
+    color: white;
+    text-decoration: italic;
+}
+
+
 
 h2 {
    font-family: 'Montserrat Subrayada', sans-serif; 
@@ -51,4 +59,31 @@ a {
 
 a, p {
     font-family: monospace;
+}
+
+/* createStory Styles */
+
+#createStory {
+    margin: 3%;
+}
+
+#CreateStoryTitle {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #FFE1DE;
+    color: #fff;
+    font-size: 3rem;
+    /* add padding to 'sign up now' */
+    padding: 3%;
+    /* add 0 margin to remove the gap between the form and the label */
+    margin: 0;
+    /* centre align the text */
+    text-align: center;
+}
+
+#form-button {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
