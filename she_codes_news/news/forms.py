@@ -10,10 +10,15 @@ class StoryForm(forms.ModelForm):
         model = NewsStory
         fields = ['title','pub_date','content','image_url']
         widgets = {
-            'pub_date': forms.DateInput(format=('%m/%d/%Y'),attrs={'class':'form-control', 'placeholder':'Selecta date','type':'date'}),
+            'pub_date': forms.DateInput(format=('%m/%d/%Y'),
+            attrs={'class':'form-control', 
+            'placeholder':'Selecta date',
+            'type':'date',
+            }),
 
             'title': forms.TextInput(attrs={
                 'class': "form-control",
+                'placeholder': 'Story title here...',
                 }),
 
             'image_url': forms.TextInput(attrs={
@@ -21,7 +26,8 @@ class StoryForm(forms.ModelForm):
                 }),
 
             'content': forms.Textarea(attrs={
-                'id': "WriteStory",
+                'class': "form-control",
+                'placeholder': 'Story content here...'
                 }),
         }
       
