@@ -7,7 +7,9 @@
     {% endblock %}
 
     {% block content %}
-    <a href="{% url 'news:newStory' %}">Write New Story</a>
+    <div id="WriteStory">
+        <a href="{% url 'news:newStory' %}">Write New Story</a>
+    </div>
     <h2>Latest News</h2>
 
     <div id="latest-stories">

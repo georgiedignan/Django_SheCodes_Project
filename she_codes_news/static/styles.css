@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
 body {
-    /* background-color: rgb(240, 239, 239); */
-    background-color: #FFE1DE;
+    background-color: rgb(240, 239, 239); 
 }
 
 header {
@@ -24,7 +23,7 @@ h1 {
 }
 
 #h1_logo {
-    color: white;
+    color: black;
     text-decoration: italic;
 }
 
@@ -63,16 +62,29 @@ a, p {
 
 /* createStory Styles */
 
+/* #WriteStory {
+    font-size: 20px;
+    margin-top: 1%;
+    width: 15%;
+    background-color: #FFE1DE;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+} */
+
 #createStory {
-    margin: 3%;
+    margin: 1%;
 }
 
 #CreateStoryTitle {
+    width: 50%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background-color: #FFE1DE;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     /* add padding to 'sign up now' */
     padding: 3%;
     /* add 0 margin to remove the gap between the form and the label */

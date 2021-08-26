@@ -8,16 +8,14 @@
 
 {% block content %}
 
-<div id="createStory">
-    <h4 id="CreateStoryTitle">Create New Story</h4>
-    <div id="form-item">
-        <form action="" method="post">
-            {% csrf_token %}
-            {{form.as_p}}
-            <input id="form-button" type="submit" value="Submit">
-
-        </form>
-    </div>   
+<h4 id="CreateStoryTitle">Create New Story</h4>
+<div id="WriteStory">
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Submit">
+    </form>
 </div>
+
 
 {% endblock content %}
