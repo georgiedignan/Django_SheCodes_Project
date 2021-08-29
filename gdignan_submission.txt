@@ -1,0 +1,8 @@
+Github repo: https://github.com/georgiedignan/Django_SheCodes_Project
+
+Website Link: https://warm-earth-63743.herokuapp.com/news/
+
+Screenshots
+Home page: ![image](https://user-images.githubusercontent.com/86653494/131240916-d19fade7-5b45-4fc2-b9bd-f3780dd33c92.png)
+Write Story: ![image](https://user-images.githubusercontent.com/86653494/131240929-447e0fd7-bdc6-4050-bb3e-ebd7310fcd1d.png)
+
